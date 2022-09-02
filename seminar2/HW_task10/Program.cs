@@ -11,9 +11,8 @@ if (number < 0)
 }
 if (number > 99 && number < 1000) 
 {
-    int secNumber = number / 10;
-    int res = secNumber % 10; 
-    Console.WriteLine($"Вторая цифра {res}");
+    int secNumber = number / 10 % 10;
+    Console.WriteLine($"Вторая цифра {secNumber}");
 }
 else
 {
