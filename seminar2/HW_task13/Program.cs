@@ -5,23 +5,23 @@
 
 Console.WriteLine("Введите число:");
 int number = Convert.ToInt32(Console.ReadLine());
-int count = 0;
+int count = 0; // подсчёт количества цифр в числе
 if (number < 0)
 {
     number = -number;
 }
 
-int digit = number;
-int numberA = number;
+int digit = number; // для подсчёта количества цифр в цикле
+int numberA = number; // для уменьшения числа до третьей цифры
 
 if (number > 99) 
 {
-    while (digit > 0)
+    while (digit > 0)  // цикл подсчёта количества цифр
     {
         digit = digit / 10;
         count = count + 1;
     }
-    while (count > 3)
+    while (count > 3) // цикл деления числа до третьей цифры
     {
     numberA = numberA / 10;
     count = count - 1;
