@@ -13,4 +13,4 @@ int y2 = Convert.ToInt32(Console.ReadLine());
 
 double distance = Math.Sqrt(Math.Pow((x2 - x1),2) + Math.Pow((y2 - y1),2));
 
-Console.WriteLine(distance);
+Console.WriteLine($"{distance:f2}");
