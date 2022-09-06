@@ -11,6 +11,6 @@ int x2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату второй точки по Y:");
 int y2 = Convert.ToInt32(Console.ReadLine());
 
-double distance = Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+double distance = Math.Sqrt(Math.Pow((x2 - x1),2) + Math.Pow((y2 - y1),2));
 
 Console.WriteLine(distance);
