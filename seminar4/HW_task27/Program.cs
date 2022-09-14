@@ -10,10 +10,7 @@ int tempN = N;
 int Number = N;
 int count = 0;
 int sum = 0;
-// if (N == 0)
-// {
-//     count = 1;
-// }
+
 
 while (tempN > 0)
 {
